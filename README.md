@@ -15,8 +15,8 @@ Simple web-app that supports authentication, registration and other CRUD operati
 * driver logging out
 * display list of all cars connected to current driver
 
-Project structure
-Project uses 3-tier architecture:
+# Project structure 
+I used 3-tier architecture:
 
 1. Data access tier -> handled by DAO;
 2. Business logic tier -> handled by Service; 
@@ -44,5 +44,8 @@ Copy content of it and then paste it to your DBMS query. I am using mySQL.
 >[src/main/java/taxi/util/ConnectionUtil.java]
 
 By changing url to your database, username and password.
+
 3. Run in console [mvn clean package] for project to build up.
-4. Run this in server. Will be better using Tomcat 9.0.50.
+4. Add your local server in the configurations. Will be better using Tomcat 9.0.50.
+5. add war archive with the project
+6. And start it ⚡
