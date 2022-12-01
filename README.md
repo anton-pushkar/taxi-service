@@ -1,4 +1,3 @@
-# taxi-service
 # Taxi Service 🚖
 # Project description
 Simple web-app that supports authentication, registration and other CRUD operations, using SOLID principles and Dependency Injection.
