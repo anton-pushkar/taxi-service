@@ -39,6 +39,7 @@ Go to
 >[src/main/resources/init_db.sql]
 
 Copy content of it and then paste it to your DBMS query. I am using mySQL.
+
 2. Configure connection to your database in
 
 >[src/main/java/taxi/util/ConnectionUtil.java]
